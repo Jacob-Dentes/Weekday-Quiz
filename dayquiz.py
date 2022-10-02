@@ -1,7 +1,7 @@
 """
 A simple script for quizing yourself on the weekday that a given date falls on
 
-Author: Jacob Dentes
+Author: Jacob Dentes the maestro
 Date: 5 December 2021 (Sunday (; )
 """
 
@@ -93,13 +93,13 @@ def main():
 
         # Tell user if they are correct
         if guess.lower() == weekday_str.lower():
-            print('\nCorrect! :)\n')
+            print('\nCorrect_B00MER! :)\n')
         else:
-            print('\nIncorrect. :(\n')
+            print('\nIncorrect_haha_ID10t. :(\n')
         print(f'The answer was: {weekday_str}')
         print(f'Your guess was: {guess}\n')
 
-        if input('Play again? y/n: ') == 'n':
+        if input('Play again_intothedungeon? y/n: ') == 'n':
             playing = False
 
 if __name__ == '__main__':
